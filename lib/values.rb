@@ -12,3 +12,4 @@ def get_the_values(groceries)
   #code your solution here!
   print groceries.values
 end
+get_the_values
