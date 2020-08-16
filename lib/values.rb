@@ -12,7 +12,12 @@ def get_the_values(groceries)
   #code your solution here!
    bulk = groceries.values
    finalarray = []
-    bulk
+   bulk.each do | array |
+     array.each do | item |
+       finalarray << item
+     end
+   end
+   finalarray
 end
 
 groceries = {
@@ -21,9 +26,4 @@ groceries = {
   meat: ["chicken", "steak", "salmon"],
   grains: ["rice", "pasta"]
  }
-hi = get_the_values(groceries)
-hi.each do |x|
-  x.each do |y|
-    puts y
-  end
-end
+
