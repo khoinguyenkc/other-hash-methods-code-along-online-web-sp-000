@@ -12,12 +12,7 @@ def get_the_values(groceries)
   #code your solution here!
    bulk = groceries.values
    finalarray = []
-   bulk.each do | array |
-     array.each do | item |
-       bulk << item
-     end
-   end
-   print finalarray
+   print bulk
 end
 
 groceries = {
