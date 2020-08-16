@@ -12,7 +12,7 @@ def get_the_values(groceries)
   #code your solution here!
    bulk = groceries.values
    finalarray = []
-   print bulk
+    bulk
 end
 
 groceries = {
@@ -21,4 +21,7 @@ groceries = {
   meat: ["chicken", "steak", "salmon"],
   grains: ["rice", "pasta"]
  }
-get_the_values(groceries)
+hi = get_the_values(groceries)
+hi.each do |x|
+  print x
+end
