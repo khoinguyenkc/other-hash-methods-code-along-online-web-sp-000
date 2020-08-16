@@ -10,7 +10,14 @@ require 'pry'
 
 def get_the_values(groceries)
   #code your solution here!
-  print groceries.values
+   bulk = groceries.values
+   finalarray = []
+   bulk.each do | array |
+     array.each do | item |
+       bulk << item
+     end
+   end
+   print finalarray
 end
 
 groceries = {
