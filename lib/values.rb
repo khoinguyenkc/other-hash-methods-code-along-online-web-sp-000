@@ -19,4 +19,4 @@ groceries = {
   meat: ["chicken", "steak", "salmon"],
   grains: ["rice", "pasta"]
  }
-get_the_values
+get_the_values(groceries)
