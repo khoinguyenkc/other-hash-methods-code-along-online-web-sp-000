@@ -23,5 +23,6 @@ groceries = {
  }
 hi = get_the_values(groceries)
 hi.each do |x|
-  print x
+  x.each do |y|
+    print y
 end
